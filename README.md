@@ -10,6 +10,7 @@ nginx/default
         
 $ mkdir a
 $ rclone mount a:b ~/a
+$ fusermount -uz ~/a
 
 $ rclone rcd --rc-web-gui --rc-user=admin --rc-pass=admin
 rclone gui access
